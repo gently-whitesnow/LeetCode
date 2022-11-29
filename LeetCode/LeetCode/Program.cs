@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode;
 
 
-Console.WriteLine("Hello, World!");
+var task = new InsertDeleteGetRandom380();
+task.Test();
