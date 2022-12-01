@@ -49,7 +49,17 @@ public class LinkedListCycleTwo
 
     public void Test()
     {
-        Console.WriteLine(DetectCycle(new ListNode(3).next =
-            new ListNode(2).next = new ListNode(0).next = new ListNode(-4)));
+        var f = new ListNode(3);
+        var s =  new ListNode(2);
+        var t = new ListNode(0);
+        var fo = new ListNode(4);
+
+        f.next = s;
+        s.next = t;
+        t.next = fo;
+        fo.next = s;
+
+        var ans = DetectCycle(f);
+        Console.WriteLine(ans.val);
     }
 }
