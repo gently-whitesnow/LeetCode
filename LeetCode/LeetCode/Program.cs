@@ -1,5 +1,5 @@
 ﻿using LeetCode;
 
 
-var task = new InsertDeleteGetRandom380();
+var task = new LinkedListCycleTwo();
 task.Test();
