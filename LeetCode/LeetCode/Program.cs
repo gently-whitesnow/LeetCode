@@ -1,5 +1,5 @@
 ﻿using LeetCode;
 
 
-var task = new LinkedListCycleTwo();
+var task = new DetermineIfTwoStringsAreClose();
 task.Test();
