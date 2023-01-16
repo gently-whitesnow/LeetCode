@@ -1,5 +1,6 @@
 ﻿using LeetCode;
+using LeetCode.Medium;
 
 
-var task = new DetermineIfTwoStringsAreClose();
+var task = new InsertInterval();
 task.Test();
