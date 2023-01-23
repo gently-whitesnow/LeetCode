@@ -18,6 +18,7 @@ public class TwoSum
         return new[] {0, 0};
     }
     
+    
     public void Test()
     {
         int[] nums = new int[] {2, 7, 11, 15};
