@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace LeetCode.Easy;
 
@@ -9,25 +10,28 @@ public class KasperVerifyString
         if (str1.Length < str2.Length)
             (str1, str2) = (str2, str1);
         var twoIndex = 0;
-        var thoChar = 0;
+        var twoChar = 0;
         foreach (var firstWord in str1)
         {
             foreach (var firstChar in firstWord)
             {
-                if (str2[twoIndex].Length == thoChar)
+                if (str2[twoIndex].Length == twoChar)
                 {
                     twoIndex++;
-                    thoChar = 0;
+                    twoChar = 0;
                 }
 
-                if (str2[twoIndex][thoChar] != firstChar)
+                if (str2[twoIndex][twoChar] != firstChar)
                 {
                     return false;
                 }
 
-                thoChar++;
+                twoChar++;
             }
         }
+
+        if (twoIndex != str2.Length - 1 || twoChar!=str2[^1].Length)
+            return false;
 
         return true;
     }
@@ -40,6 +44,6 @@ public class KasperVerifyString
         Console.WriteLine(Solve(new string[] {"Va", "sia", "privet"}, new string[] {"Vasiaprivet"}));
         Console.WriteLine(Solve(new string[] {"Va", "sia", "pri vet"}, new string[] {"Vasiapri vet"}));
         Console.WriteLine(Solve(new string[] {"a", "a", "a", "a", "a", "a", "a"}, new string[] {"aa", "a", "aa", "a", "aa"}));
-        Console.WriteLine(Solve(new string[] {"aa", "a", "aa", "a", "aa"}, new string[] {"a", "a", "a", "a", "a", "a", "a"}));
+        Console.WriteLine(Solve(new string[] {"aa", "a", "aa", "a", "aaa"}, new string[] {"a", "a", "a", "a", "a", "a", "aa"}));
     }
 }

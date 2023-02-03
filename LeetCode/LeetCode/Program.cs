@@ -3,5 +3,5 @@ using LeetCode.Easy;
 using LeetCode.Medium;
 
 
-var task = new KasperVerifyString();
+var task = new AddBinary();
 task.Test();
