@@ -3,5 +3,5 @@ using LeetCode.Easy;
 using LeetCode.Medium;
 
 
-var task = new MergeTwoSortedLists();
+var task = new KasperVerifyString();
 task.Test();
