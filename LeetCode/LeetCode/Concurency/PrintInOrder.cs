@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Threading;
 
 namespace LeetCode.Concurency;
@@ -22,6 +21,7 @@ public class Foo
 
     public void Second(Action printSecond)
     {
+        // SpinWait.SpinUntil(()=>sinhronizedValue==1);
         while (sinhronizedValue!=1)
         {
             spin.SpinOnce();
@@ -32,6 +32,7 @@ public class Foo
 
     public void Third(Action printThird)
     {
+        // SpinWait.SpinUntil(()=>sinhronizedValue==2);
         while (sinhronizedValue!=2)
         {
             spin.SpinOnce();

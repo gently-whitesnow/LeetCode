@@ -7,5 +7,5 @@ using LeetCode.Hard;
 using LeetCode.Medium;
 
 
-// var task = new SearchInsert();
-// task.Test();
+var task = new Sqrt();
+task.Test();
