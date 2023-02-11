@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LeetCode;
+namespace LeetCode.Easy.Undefined;
 
 // https://leetcode.com/problems/insert-delete-getrandom-o1/
 public class InsertDeleteGetRandom380

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LeetCode.Easy;
+namespace LeetCode.Easy.Arrays;
 
 public class RemoveDuplicates
 {

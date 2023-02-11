@@ -1,6 +1,6 @@
 using System;
 
-namespace LeetCode.Easy;
+namespace LeetCode.Easy.LinkedList;
 
 public class MergeTwoSortedLists
 {

@@ -1,7 +1,6 @@
 using System;
-using System.Linq;
 
-namespace LeetCode.Easy;
+namespace LeetCode.Easy.Strings;
 
 public class KasperVerifyString
 {

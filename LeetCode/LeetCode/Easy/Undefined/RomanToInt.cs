@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LeetCode.Easy;
+namespace LeetCode.Easy.Undefined;
 
 public class RomanToInt
 {

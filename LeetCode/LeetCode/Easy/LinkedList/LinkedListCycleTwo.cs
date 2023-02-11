@@ -1,6 +1,6 @@
 using System;
 
-namespace LeetCode;
+namespace LeetCode.Easy.LinkedList;
 
 public class LinkedListCycleTwo
 {

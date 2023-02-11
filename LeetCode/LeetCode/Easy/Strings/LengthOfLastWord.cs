@@ -1,4 +1,4 @@
-namespace LeetCode.Easy;
+namespace LeetCode.Easy.Strings;
 
 public class LengthOfLastWord
 {
