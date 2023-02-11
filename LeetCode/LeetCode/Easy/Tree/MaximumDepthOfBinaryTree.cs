@@ -21,7 +21,7 @@ public class MaximumDepthOfBinaryTree
         {
             if (root == null)
             {
-                maxHeight = Math.Max(maxHeight, currentHeight);
+                maxHeight = System.Math.Max(maxHeight, currentHeight);
                 return;
             }
                 
@@ -38,7 +38,7 @@ public class MaximumDepthOfBinaryTree
             return 0;
         var leftHeight = MaxDepthBetterSolve(root.left);
         var rightHeight = MaxDepthBetterSolve(root.right);
-        return Math.Max(leftHeight, rightHeight) + 1;
+        return System.Math.Max(leftHeight, rightHeight) + 1;
     }
     
     public void Test()

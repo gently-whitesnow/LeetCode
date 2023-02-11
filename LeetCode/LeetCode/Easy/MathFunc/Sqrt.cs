@@ -1,6 +1,6 @@
 using System;
 
-namespace LeetCode.Easy.Math;
+namespace LeetCode.Easy.MathFunc;
 
 public class Sqrt
 {
