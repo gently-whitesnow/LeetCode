@@ -1,5 +1,7 @@
-﻿using LeetCode.Easy.Tree;
+﻿using LeetCode.Easy.Arrays;
+using LeetCode.Easy.Tree;
+using LeetCode.Easy.Undefined;
 
 
-var task = new PathSum();
+var task = new PascalsTriangle();
 task.Test();
