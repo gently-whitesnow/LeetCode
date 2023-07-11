@@ -10,5 +10,5 @@ using LeetCode.Medium.Strings;
 using LeetCode.Medium.Tree;
 
 
-var task = new NumberOf1Bits();
+var task = new LongestPalindromicSubstring();
 task.Test();
